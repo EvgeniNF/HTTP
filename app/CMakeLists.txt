@@ -13,4 +13,4 @@ add_executable(${PROJECT}
         ${PROJECT_SOURCE})
 #-------------------------- Link libraries ---------------------------#
 #---------------------------------------------------------------------#
-#target_link_libraries()
+target_link_libraries(${PROJECT} http)
